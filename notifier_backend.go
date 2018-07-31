@@ -7,7 +7,7 @@ import (
 )
 
 func getToday(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Today's information\n")
+	io.WriteString(w, "운동화 들고 나가기!\n")
 }
 
 func main() {
